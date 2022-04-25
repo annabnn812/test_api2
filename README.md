@@ -1,6 +1,6 @@
-git clone https://github.com/annabnn812/test-api.git
+git clone https://github.com/annabnn812/test_api2.git
 
-cd test-api
+cd test_api2
 
 npm install
 
@@ -8,7 +8,7 @@ npm install
 
 npm start &
 
-//You con confirm the server is working by opening a browser and entering this URL - http://locahost:3001/users
+//You can confirm the server is working by opening a browser and entering this URL - http://locahost:3001/users
 
 //Now Start server.js
 
