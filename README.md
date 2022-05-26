@@ -15,3 +15,33 @@ npm start &
 node .\server.js
 
 after this command , the output.json file will be automatically created
+
+
+========================================================================================
+RESULT
+========================================================================================
+INPUT:
+{
+  id: 123,
+  name: 'Elsa',
+  username: 'iugkio18',
+  email: 'elsa@gmail.com',
+  power: 'ice ray',
+  friends: [
+    { id: 234, username: 'Magic213' },
+    { id: 456, username: 'call_me_anna' },
+    { id: 222, username: 'Trololo' },
+    { id: 8846, username: 'Just_Alice' }
+  ]
+}
+
+OUTPUT:
+{
+  "id": 123,
+  "name": "****",
+  "username": "********",
+  "email": "****@gmail.com",
+  "age": 21,
+  "power": "ice ray",
+  "friends": "[{\"id\":234,\"username\":\"********\"},{\"id\":456,\"username\":\"************\"},{\"id\":222,\"username\":\"*******\"},{\"id\":8846,\"username\":\"**********\"}]"
+}
